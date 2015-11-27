@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygment
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            The Last Patient
 tagline:          'And how does that make you feel?'
-description:      'Exploring the American psyche, horizontally from this ever-so-comfortable sofa. Web template based on the <a href="http://lanyon.getpoole.com/">lanyon</a> Jekyll theme.'
+description:      'Exploring the American psyche horizontally, from this ever-so-comfortable sofa. Web template based on the <a href="http://lanyon.getpoole.com/">lanyon</a> Jekyll theme.'
 url:              http://thelastpatient.github.io
 
 author:
