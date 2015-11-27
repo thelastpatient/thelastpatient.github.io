@@ -1,9 +1,11 @@
 ---
 layout: default
+comments: True
 ---
 
 <div class="posts">
   {% for post in paginator.posts %}
+  {% assign frontpost = post %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
@@ -34,3 +36,6 @@ layout: default
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
+{% assign post = frontpost %}
+{% include comments.html %}

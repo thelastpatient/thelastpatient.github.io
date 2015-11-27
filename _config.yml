@@ -2,20 +2,36 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+pages_list:
+  About:          '/about'
+  Archive:        '/archive'
+  Feed:           '/atom.xml'
+
 # Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:        pretty
+relative_permalinks: true
 
 # Setup
 title:            The Last Patient
 tagline:          'And how does that make you feel?'
 description:      'Exploring the American psyche horizontally, from this ever-so-comfortable sofa. Web template based on the <a href="http://lanyon.getpoole.com/">lanyon</a> Jekyll theme.'
 url:              http://thelastpatient.github.io
+disqusid:         thelastpatient
 
 author:
   name:           'Ben Prince'
   # url:            https://twitter.com/mdo
 
 paginate:         1
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:       _sass
+  style:          :compressed
 
 # Custom vars
 version:          2.0.0
